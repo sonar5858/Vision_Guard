@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['cap', 'missing_cap']
+
+roboflow:
+  workspace: yash-sonar-dui7q
+  project: vision-guard-wovga
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yash-sonar-dui7q/vision-guard-wovga/dataset/3
